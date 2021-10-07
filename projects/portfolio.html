@@ -1,6 +1,58 @@
 <html>
     <head>
         <title>Tori's Saloon</title>
+        <style type="text/css">
+          body {
+            background-image: url(https://lh3.google.com/pw/AM-JKLU6eCWZkkepyvbIOoLeSa9luDFEsiCuFmwTnafIccS931fKC7A3DqFeVo19IaZ8bq4rwc3C-KR1ys7sgyQgELqpq6kIprE=w225-h400-no?authuser=0) ;
+              color: black);
+              padding: 1px;
+              font-family: georgia;
+          }
+          header {
+              font-size: 1.5em;
+              font-weight: bold;
+          }
+          
+          #all-contents {
+              max-width: 800px;
+              margin: auto;
+          }
+  
+          /* navigation menu */
+          nav {
+              background: rgb(128, 0, 0);
+              margin: 20px auto;
+              display: flex;
+              padding: 10px;
+          }
+          h1 {
+              display: flex;
+              align-items: center;
+              color: rgb(255, 255, 255);
+              flex: 1;
+          }
+          #nav-ul {
+              list-style-image: none;
+          }
+          .nav-li {
+              display: inline-block;
+              padding: 0 10px;
+          }
+          .nav-a {
+              text-decoration: none;
+              color: #fff;
+          }
+  
+          /* main container area beneath menu */
+          main {
+              background: black;
+              display: flex;
+          }
+          .content {
+              flex: 1;
+              padding: 15px;
+          }
+      </style>
     </head>
 
 
@@ -16,6 +68,21 @@
                   <a class="nav-a" href="portfolio.html">Portfolio</a>
                 </li>
             </ul>
+            </main>
+            <nav>
+              <!-- Nav stuff here...-->
+          </nav> 
+          <main>
+              <div class="content">
+                  <h1>Portfolio</h1>
+                  <ul id="portfolio">
+                    <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure game for Halleb0t</a></li>
+                    <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game development on the web </a></li>
+                    <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity applied to circle shapes...</a></li>
+                
+                  </ul>
+              </div>
+          </main>
         </nav>
         <main>
 
